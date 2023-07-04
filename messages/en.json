@@ -1,8 +1,4 @@
 {
-  "IndexPage": {
-    "title": "next-intl Beispiel",
-    "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite."
-  },
   "ContactPage": {
     "heading": "We talk?",
     "subheading": "Get in touch",
@@ -78,8 +74,8 @@
     }
   },
   "NotFoundPage": {
-    "title": "Seite nicht gefunden",
-    "description": "Bitte überprüfe die Addressleiste deines Browsers oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
+    "title": "Page not found",
+    "description": "Please double-check the browser address bar"
   },
   "LocaleSwitcher": {
     "locale": "{locale, select, es {ES} en {EN} other {unknown}}"

@@ -2,13 +2,13 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 // custom
 import Nav from "../components/Nav";
 
 // styles
 import styles from "../../../styles/contact.module.css";
-import { useTranslations } from "next-intl";
 
 export default function Contact() {
   const t = useTranslations('ContactPage')

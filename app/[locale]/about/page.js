@@ -126,9 +126,11 @@ export default function About() {
                       return (
                         <div key={item} className={styles.language}>
                           <div className={styles.language__name}>
-                          {t(`languagesData.language${item}`)}
+                            {t(`languagesData.language${item}`)}
                           </div>
-                          <div className={styles.language__level}>{t(`languagesData.level${item}`)}</div>
+                          <div className={styles.language__level}>
+                            {t(`languagesData.level${item}`)}
+                          </div>
                         </div>
                       );
                     })}
@@ -148,11 +150,18 @@ export default function About() {
               recommendations.map((item) => {
                 return (
                   <>
-                    <p key={item} className={styles.quote}> {"\"" + t(`recommendationsData.text${item}`) + "\""}</p>
+                    <p key={item} className={styles.quote}>
+                      {" "}
+                      {'"' + t(`recommendationsData.text${item}`) + '"'}
+                    </p>
                     <div className={styles.quote__person}>
                       <p>{t(`recommendationsData.name${item}`)}</p>
-                      <p className={styles.p__quote}>{t(`recommendationsData.company${item}`)}</p>
-                      <p className={styles.p__quote}>{t(`recommendationsData.mail${item}`)}</p>
+                      <p className={styles.p__quote}>
+                        {t(`recommendationsData.company${item}`)}
+                      </p>
+                      <p className={styles.p__quote}>
+                        {t(`recommendationsData.mail${item}`)}
+                      </p>
                     </div>
                   </>
                 );

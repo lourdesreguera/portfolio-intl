@@ -9,7 +9,6 @@ import stylesHome from "../../styles/page.module.css";
 //custom
 import bg from "/public/images/bg.png";
 import NavHome from "./components/NavHome";
-import LocaleSwitcher from "./components/LocaleSwitcher";
 
 export default function Home() {
   return (
@@ -83,7 +82,6 @@ export default function Home() {
             <h2 className={stylesHome.subheading}>Frontend Developer</h2>
           </div>
         </Plx>
-
         <NavHome />
       </div>
     </main>

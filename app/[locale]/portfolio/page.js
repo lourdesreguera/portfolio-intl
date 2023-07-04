@@ -8,10 +8,10 @@ import img1 from "../../../public/images/1.png";
 import img2 from "../../../public/images/2.png";
 import img3 from "../../../public/images/3.png";
 import Nav from "../components/Nav";
+import ImageComp from "./components/ImageComp";
 
 // styles
 import styles from "../../../styles/portfolio.module.css";
-import ImageComp from "./components/ImageComp";
 
 const images = [
   {

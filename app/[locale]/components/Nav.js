@@ -1,11 +1,11 @@
 "use client";
 // custom
 import DropdownMenu from "./DropdownMenu";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 // styles
 import styles from "../../../styles/nav.module.css";
 import Link from "next/link";
-import LocaleSwitcher from "./LocaleSwitcher";
 
 export default function Nav() {
   return (

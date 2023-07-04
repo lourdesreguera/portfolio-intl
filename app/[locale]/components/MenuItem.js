@@ -1,8 +1,9 @@
 import { motion } from "framer-motion";
-import styles from "../../../styles/dropdown.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
+// styles
+import styles from "../../../styles/dropdown.module.css";
 
 const variants = {
   open: {

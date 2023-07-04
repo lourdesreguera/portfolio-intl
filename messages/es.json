@@ -78,8 +78,8 @@
     }
   },
   "NotFoundPage": {
-    "title": "Page not found",
-    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+    "title": "Página no encontrada",
+    "description": "Por favor, comprueba la dirección escrita en el navegador."
   },
   "LocaleSwitcher": {
     "locale": "{locale, select, es {ES} en {EN} other {otro}}"

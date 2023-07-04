@@ -35,8 +35,9 @@
 }
 
 .select {
+  cursor: pointer;
   background-color: var(--ash-black);
   border: none;
-  color: white;
+  color: var(--white);
   font-family: var(--font-montserrat);
 }
