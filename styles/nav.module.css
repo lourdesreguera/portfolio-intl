@@ -1,0 +1,42 @@
+.nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 300px;
+}
+
+.openNav {
+  z-index: 1;
+}
+.title {
+  font-family: var(--font-leky);
+  padding: 1.25rem 0 0 5rem;
+  font-size: 0.75rem;
+}
+
+.span {
+  font-size: 0.5rem;
+}
+
+.header {
+  display: flex;
+}
+
+.link {
+  z-index: 1;
+  position: absolute;
+}
+
+.languageSelector {
+  position: absolute;
+  right: 2rem;
+  top: 2rem;
+}
+
+.select {
+  background-color: var(--ash-black);
+  border: none;
+  color: white;
+  font-family: var(--font-montserrat);
+}

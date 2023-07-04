@@ -1,0 +1,92 @@
+{
+  "IndexPage": {
+    "title": "next-intl example",
+    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
+  },
+  "ContactPage": {
+    "heading": "¿Hablamos?",
+    "subheading": "Contacta conmigo",
+    "city": "Granada, España"
+  },
+  "AboutPage": {
+    "education": "Formación",
+    "experience": "Experiencia",
+    "languages": "Idiomas",
+    "aboutMe": "Dicen sobre mí . . .",
+    "about": "SBRE MÍ . . .",
+    "description": "Me gusta estar en constante aprendizaje y evolución, razón por la que decidí dar un giro a mi carrera profesional y dedicarme por completo al mundo del desarrollo web. Me siento cómoda trabajando en equipo, me considero una persona organizada y comprometida con mi trabajo.",
+    "educationData": {
+      "date1": "jul 2022 / sep 2022",
+      "name1": "Bootcamp Full Stack Developer",
+      "place1": "Upgrade Hub",
+      "date2": "abr 2022",
+      "name2": "Responsive Web Design",
+      "place2": "FreeCodeCamp",
+      "date3": "mar 2022",
+      "name3": "Curso Desarrollo y Diseño Web",
+      "place3": "SuperHi",
+      "date4": "nov 2015 / jun 2016",
+      "name4": "Máster en Marketing, Publicidad y Diseño",
+      "place4": "Nett Formación",
+      "date5": "sep 2011 / jun 2015",
+      "name5": "Grado en Administración y Dirección de Empresas",
+      "place5": "Universidad de Sevilla"
+    },
+    "experienceData": {
+      "date1": "oct 2022 / actualidad",
+      "name1": "Frontend Developer",
+      "place1": "TSE Technology (Remoto)",
+      "description1": "Desarrollo frontend con ReactJS y Material UI, Diseño UX/UI con Figma. Metodología SCRUM.",
+      "date2": "mar 2020 / dic 2021",
+      "name2": "Administrativo Atención al Usuario",
+      "place2": "Hospital San Rafael (Granada)",
+      "description2": "Colaboración. Comunicación. Flexibilidad. Capacidad de trabajo en equipo. Tolerancia a la presión. Empatía.",
+      "date3": "oct 2017 / dic 2019",
+      "name3": "Responsable de Administración",
+      "place3": "Clínica Generalife (Granada)",
+      "description3": "Gestión del tiempo. Capacidad de trabajo en equipo. Responsabilidad. Habilidades interpersonales. Resolución de conflictos. Liderazgo.",
+      "date4": "abr 2016 / oct 2018",
+      "name4": "Emprendedora",
+      "place4": "LouB",
+      "description4": "Diseño de prendas. Creación de tienda online. Toma de decisiones. Innovación. Iniciativa. Resolución.",
+      "date5": "dic 2016 / sep 2017",
+      "name5": "Hostess y Community Manager",
+      "place5": "Basarri Gin Club (Madrid)",
+      "description5": "Creatividad. Habilidades comunicativas. Atención al detalle. Actitud positiva."
+    },
+    "softSkills": {
+      "communication": "Comunicación",
+      "empathy": "Empatía",
+      "teamWork": "Trabajo en equipo",
+      "positive": "Actitud positiva",
+      "flexibility": "Flexibilidad",
+      "resilience": "Resiliencia",
+      "learning": "Aprendizaje constante e independiente",
+      "creativity": "Creatividad"
+    },
+    "languagesData": {
+      "language1": "Inglés",
+      "level1": "Nivel B2",
+      "language2": "Español",
+      "level2": "Nativo"
+    },
+    "recommendationsData": {
+      "name1": "Jose Cánovas",
+      "company1": "CIO de TSE Technology",
+      "mail1": "canovas.jose43@gmail.com",
+      "text1": "Desde el primer momento en que Lourdes se incorporó a nuestra empresa, demostró un talento y habilidades excepcionales. En tan solo unos días, se adaptó rápidamente a nuestro entorno de trabajo, integrándose de tal manera que parecía que llevaba años trabajando con nosotros. Su dedicación y compromiso inquebrantable le permitieron asumir rápidamente responsabilidades y retos dificiles. Lourdes ha realizado toda la programación de Frontend de nuestros desarrollos, mostrando una habilidad innata para transformar diseños en experiencias de usuario fluidas e intuitivas. Su dominio en la codificación y su atención meticulosa a los detalles nos ha permitido optimizar nuestros procesos y cumplir con los plazos de entrega, incluso en proyectos de alta complejidad (...). Sin ninguna duda, recomiendo a Lourdes como una excepcional desarrolladora UI/UX y especialista en Frontend. Estoy seguro de que su talento, creatividad y habilidades interpersonales la convertirán en un activo inestimable para cualquier organización."
+    }
+  },
+  "NotFoundPage": {
+    "title": "Page not found",
+    "description": "Please double-check the browser address bar or use the navigation to go to a known page."
+  },
+  "LocaleSwitcher": {
+    "locale": "{locale, select, es {ES} en {EN} other {otro}}"
+  },
+  "Navigation": {
+    "portfolio": "Portfolio",
+    "about": "Sobre mí",
+    "contact": "Contacto"
+  }
+}

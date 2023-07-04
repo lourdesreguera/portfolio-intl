@@ -1,0 +1,60 @@
+html,
+body {
+  overscroll-behavior: none;
+  --ash-black: #101010;
+  --white: #f4fcfb;
+  --pink: #ff304f;
+  --gray: #a5acaf;
+
+  --headings: var(--font-leky)
+
+  --background: var(--ash-black);
+  --accent: var(--white);
+}
+
+body {
+  text-align: center;
+  background-color: var(--ash-black);
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-montserrat);
+  font-size: 16px;
+  color: var(--white);
+}
+
+h1, h2 {
+  font-family: var(--font-leky);
+  font-weight: 400;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+::-webkit-scrollbar {
+  height: 5px;
+  width: 5px;
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--accent);
+  -webkit-border-radius: 1ex;
+}
+
+::-webkit-scrollbar-corner {
+  background: var(--background);
+}
