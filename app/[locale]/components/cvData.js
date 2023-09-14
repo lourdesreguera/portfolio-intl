@@ -89,6 +89,7 @@ const CV = {
     "JavaScript",
     "Angular",
     "React.js",
+    "React Native",
     "Vue.js",
     "Next.js",
     "Node.js",
