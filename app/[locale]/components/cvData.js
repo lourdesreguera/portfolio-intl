@@ -36,14 +36,22 @@ const CV = {
   experience: [
     {
       id: 1,
-      name: "Frontend Developer",
-      date: "oct 2022 / actualidad",
-      where: "TSE Technology (Remoto)",
+      name: "Frontend Developer y Diseñadora UX/UI",
+      date: "sept 2023 / actualidad",
+      where: "Clone By Me (Remoto)",
       description:
-        "Desarrollo frontend con ReactJS y Material UI, Diseño UX/UI con Figma. Metodología SCRUM.",
+        "Desarrollo frontend con ReactJS y React Native. Diseño UX/UI con Figma. Metodología SCRUM.",
     },
     {
       id: 2,
+      name: "Frontend Developer",
+      date: "oct 2022 / sept 2023",
+      where: "TSE Technology (Remoto)",
+      description:
+        "Desarrollo frontend con ReactJS y Material UI. Diseño UX/UI con Figma. Metodología SCRUM.",
+    },
+    {
+      id: 3,
       name: "Administrativo Atención al Usuario",
       date: "mar 2020 / dic 2021",
       where: "Hospital San Rafael (Granada)",
@@ -51,7 +59,7 @@ const CV = {
         "Colaboración. Comunicación. Flexibilidad. Capacidad de trabajo en equipo. Tolerancia a la presión. Empatía.",
     },
     {
-      id: 3,
+      id: 4,
       name: "Responsable de Administración",
       date: "oct 2017 / dic 2019",
       where: "Clínica Generalife (Granada)",
@@ -59,7 +67,7 @@ const CV = {
         "Gestión del tiempo. Capacidad de trabajo en equipo. Responsabilidad. Habilidades interpersonales. Resolución de conflictos. Liderazgo.",
     },
     {
-      id: 4,
+      id: 5,
       name: "Emprendedora",
       date: "abr 2016 / oct 2018",
       where: "LouB",
@@ -67,7 +75,7 @@ const CV = {
         "Diseño de prendas. Creación de tienda online. Toma de decisiones. Innovación. Iniciativa. Resolución.",
     },
     {
-      id: 5,
+      id: 6,
       name: "Hostess y Community Manager",
       date: "dic 2016 / sep 2017",
       where: "Basarri Gin Club (Madrid)",
