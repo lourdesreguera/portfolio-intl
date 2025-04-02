@@ -149,8 +149,8 @@ export default function About() {
             {recommendations &&
               recommendations.map((item) => {
                 return (
-                  <>
-                    <p key={item} className={styles.quote}>
+                  <div key={item}>
+                    <p className={styles.quote}>
                       {" "}
                       {'"' + t(`recommendationsData.text${item}`) + '"'}
                     </p>
@@ -163,7 +163,7 @@ export default function About() {
                         {t(`recommendationsData.mail${item}`)}
                       </p>
                     </div>
-                  </>
+                  </div>
                 );
               })}
           </div>
